@@ -1,0 +1,52 @@
+.container__filter-page {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  width: auto;
+  padding: 5rem;
+  background-color: #fff;
+}
+
+.filter-page__type {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.filter-page__type > img {
+  width: 100%;
+  object-fit: fill;
+}
+
+.filter-page__type .overlay {
+  position: absolute;
+  display: grid;
+  place-items: center;
+}
+
+.filter-page__type .overlay > div {
+  position: absolute;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-page__type .overlay h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-transform: bolder;
+}
+
+.filter-page__type .overlay a {
+  color: white;
+}
+
+.filter-page__type .overlay a:checked{
+  color: white;
+}
+
+.filter-page__type .overlay > img {
+  width: 4rem;
+  color: white;
+}

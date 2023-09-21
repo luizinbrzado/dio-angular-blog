@@ -1,0 +1,23 @@
+.container__posts {
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 1rem));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 760px) {
+  .container__posts {
+    grid-template-columns: repeat(1, 100%);
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+/* .container__posts > div:nth-child(1n) {
+  background-color: aqua;
+}
+
+.container__posts > div:nth-child(2n) {
+  background-color: antiquewhite;
+} */
+

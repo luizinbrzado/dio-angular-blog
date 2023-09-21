@@ -1,0 +1,86 @@
+.container__menu-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar__top {
+    height: 6rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #fff;
+    border: 1px;
+    border-color: #E8E8E8;
+    border-style: solid;
+}
+
+.menu-bar__top .socials ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-bar__top .socials li a {
+    color: #000;
+}
+
+.menu-bar__top .home-button a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-bar__top .home-button a:hover{
+    color: #0a95ff;
+}
+
+.menu-bar__top .search {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px;
+    border-color: #dddddd;
+    border-style:solid;
+    padding: .3rem;
+}
+
+.menu-bar__top .search input {
+    background-color: unset;
+    outline: none;
+    border: none;
+}
+
+.menu-bar__top .search .search-icon {
+    cursor: pointer;
+}
+
+.menu-bar__bottom {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 15rem;
+    margin-bottom: .5rem;
+}
+
+.menu-bar__bottom .bottom__menu {
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.menu-bar__bottom .bottom__menu li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-bar__bottom .bottom__menu li a:hover {
+    color: #0a95ff;
+}
+
+.menu-bar__bottom .bottom__menu li a:checked {
+    color: #0a95ff;
+}
+
+.menu-bar__bottom .bottom__menu li {
+    cursor: pointer;
+}

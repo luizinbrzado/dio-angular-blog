@@ -1,0 +1,20 @@
+<div
+  class="post"
+  *ngIf="
+    title.length != 0 &&
+    subtitle.length != 0 &&
+    body.length != 0 &&
+    imgSrc.length != 0 &&
+    imgAlt.length != 0
+  "
+>
+  <div class="post__top">
+    <img src="{{ imgSrc }}" alt="{{ imgAlt }}" />
+  </div>
+  <div class="post__bottom">
+    <h1>{{ title }}</h1>
+    <h2>{{ subtitle }}</h2>
+    <p>{{ body }}</p>
+    <button>Read More</button>
+  </div>
+</div>
